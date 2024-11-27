@@ -1,0 +1,21 @@
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <circle
+      cx="50"
+      cy="50"
+      r="45"
+      fill="#0f766e"
+      stroke="#5eead4"
+      stroke-width="6"
+    />
+    <text
+      x="48"
+      y="70"
+      font-family="Verdana"
+      font-size="55"
+      font-weight="bold"
+      text-anchor="middle"
+      fill="#f0fdfa"
+    >
+      LK
+    </text>
+  </svg>
