@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Calendar, Computer, Laptop, MessageCircle, Phone } from "lucide-react";
 import ExpertiseTile from "/src/components/ExpertiseTile";
 import ExpertiseTileMobile from "/src/components/ExpertiseTileMobile";
@@ -14,9 +15,12 @@ const Home = () => {
           <h1 className="text-4xl font-bold text-teal-50 mb-6 select-none">
             Start Your Journey to Better Mental Health!
           </h1>
-          <button className="bg-teal-600 w-60 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none">
+          <Link
+            to="/contact"
+            className="bg-teal-600 w-60 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none"
+          >
             Schedule Consultation
-          </button>
+          </Link>
         </div>
       </div>
       <div id="home" className="bg-white py-16 px-4">
@@ -161,9 +165,12 @@ const Home = () => {
         </div>
       </div> */}
       <div className="max-w-6xl mx-auto text-center p-12 ">
-        <button className="bg-teal-600 font-bold w-84 h-12 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none">
+        <Link
+          to="/contact"
+          className="bg-teal-600 font-bold w-84 h-12 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none"
+        >
           Schedule Consultation Today!
-        </button>
+        </Link>
       </div>
     </div>
   );
