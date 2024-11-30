@@ -2,10 +2,10 @@ import React from "react";
 
 const ExpertiseTile = () => {
   const TileStyle =
-    "bg-white font-bold text-center border border-gray-200 rounded-lg py-3 m-2 transition duration-300 ease-in-out hover:scale-110 hover:bg-teal-600 hover:text-white select-none";
+    "bg-white font-bold text-gray-600 text-center border border-gray-50 rounded-lg py-3 m-2 transition duration-300 ease-in-out hover:scale-110 hover:bg-teal-600 hover:text-white select-none";
   return (
     <div>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-4  content-center align-bottom">
         <div className={TileStyle}>Addiction</div>
         <div className={TileStyle}>ADHD</div>
         <div className={TileStyle}>Adoption</div>

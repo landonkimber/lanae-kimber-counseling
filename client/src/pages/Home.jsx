@@ -1,8 +1,11 @@
 import React from "react";
 import { Calendar, Computer, Laptop, MessageCircle, Phone } from "lucide-react";
 import ExpertiseTile from "/src/components/ExpertiseTile";
+import ExpertiseTileMobile from "/src/components/ExpertiseTileMobile";
 
 const Home = () => {
+  const screenWidth = window.innerWidth;
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -92,7 +95,7 @@ const Home = () => {
             </div>
           </div>
           <div id="tileSection">
-            <ExpertiseTile />
+            {screenWidth < 1050 ? <ExpertiseTileMobile /> : <ExpertiseTile />}
           </div>
         </div>
       </div>
