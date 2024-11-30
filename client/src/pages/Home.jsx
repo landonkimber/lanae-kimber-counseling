@@ -4,13 +4,18 @@ import { Calendar, Computer, Laptop, MessageCircle, Phone } from "lucide-react";
 import ExpertiseTile from "/src/components/ExpertiseTile";
 import ExpertiseTileMobile from "/src/components/ExpertiseTileMobile";
 
+import lanaeImage from "/lanae.jpg";
+import movingImage from "/moving.jpg";
+import lgbtqImage from "/lgbtq.jpg";
+import womanImage from "/woman.jpg";
+
 const Home = () => {
   const screenWidth = window.innerWidth;
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <div className="relative bg-[url('/src/assets/sasha-freemind-unsplash.jpg')] bg-cover bg-center py-16 px-4 bg-blend-overlay bg-gray-800/50 shadow z-0">
+      <div className="relative bg-[url('/sasha-freemind-unsplash.jpg')] bg-cover bg-center py-16 px-4 bg-blend-overlay bg-gray-800/50 shadow z-0">
         <div className="flex flex-col justify-center items-center max-w-3xl mx-auto text-center h-[33vh]">
           <h1 className="text-4xl font-bold text-teal-50 mb-6 select-none">
             Start Your Journey to Better Mental Health!
@@ -31,7 +36,7 @@ const Home = () => {
           <div className="h-1 w-full bg-teal-600 mx-auto mt-4 mb-8"></div>
           <div className="relative flow-root">
             <img
-              src="/assets/lanae.jpg"
+              src={lanaeImage}
               alt="Image of Lanae Kimber"
               className="float-right ml-4 mb-4 w-32 sm:w-48 md:w-64 rounded-lg"
             />
@@ -68,7 +73,7 @@ const Home = () => {
               <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
-                  src="/assets/moving.jpg"
+                  src={movingImage}
                   alt="Life Transitions"
                   className="w-full h-full object-cover rounded-md"
                 />
@@ -82,7 +87,7 @@ const Home = () => {
               <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
-                  src="/assets/lgbtq.jpg"
+                  src={lgbtqImage}
                   alt="LGBTQ+"
                   className="w-full h-full object-cover rounded-md"
                 />
@@ -95,7 +100,7 @@ const Home = () => {
               <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
-                  src="/assets/woman.jpg"
+                  src={womanImage}
                   alt="Women's Issues"
                   className="w-full h-full object-cover rounded-md"
                 />
