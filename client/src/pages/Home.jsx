@@ -50,17 +50,18 @@ const Home = () => {
       <div id="top-specialties" className="bg-gray-50 py-8 px-4">
         <div className="max-w-6xl mx-auto">
           {/*  */}
-          <h1 className="text-4xl text-gray-800 text-left mb-4 select-none">
+          <h1 className="text-4xl text-sky-800 text-left mb-4 select-none">
             Specialties
           </h1>
           <div
             id="specialties-cards"
             className="grid grid-cols-3 gap-4 lg:gap-8"
           >
-            <div className="bg-white p-4 lg:p-6 rounded-lg shadow-md transition duration-300 ease-in-out hover:scale-110 hover:text-white hover:bg-teal-400">
-              <h3 className="text-sm lg:text-xl font-semibold mb-2 text-center select-none">
+            <div className="bg-white p-4 lg:p-6 rounded-lg text-yellow-500 shadow-sm transition duration-300 ease-in-out hover:scale-110 hover:text-white hover:bg-teal-400 group hover:shadow-2xl hover:shadow-teal-50">
+              <h3 className="text-sm lg:text-xl font-bold mb-1 text-center select-none group-hover:text-white">
                 Life Transitions
               </h3>
+              <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
                   src="/src/assets/moving.jpg"
@@ -69,10 +70,12 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="bg-white p-4 lg:p-6 rounded-lg shadow-md transition duration-300 ease-in-out hover:scale-105 hover:text-white hover:bg-teal-400">
-              <h3 className="text-sm lg:text-xl font-semibold mb-2 text-center select-none">
+
+            <div className="bg-white p-4 lg:p-6 rounded-lg text-yellow-500 shadow-sm transition duration-300 ease-in-out hover:scale-105 hover:text-white hover:bg-teal-400 group hover:shadow-2xl hover:shadow-teal-50">
+              <h3 className="text-sm lg:text-xl font-bold mb-1 text-center select-none group-hover:text-white">
                 LGBTQ+
               </h3>
+              <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
                   src="/src/assets/lgbtq.jpg"
@@ -81,10 +84,11 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="bg-white p-4 lg:p-6 rounded-lg shadow-md transition duration-300 ease-in-out hover:scale-105 hover:text-white hover:bg-teal-400">
-              <h3 className="text-sm lg:text-xl font-semibold mb-2 text-center select-none">
+            <div className="bg-white p-4 lg:p-6 rounded-lg text-yellow-500 shadow-sm transition duration-300 ease-in-out hover:scale-105 hover:text-white hover:bg-teal-400 group hover:shadow-2xl hover:shadow-teal-50">
+              <h3 className="text-sm lg:text-xl font-bold mb-1 text-center select-none group-hover:text-white">
                 Women's Issues
               </h3>
+              <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
                   src="/src/assets/woman.jpg"
