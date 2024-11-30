@@ -21,7 +21,7 @@ const Home = () => {
       </div>
       <div id="home" className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-3xl text-gray-800 font-semi-bold mb-4 select-none">
+          <h1 className="text-3xl text-sky-800 font-semi-bold mb-4 select-none">
             Are you ready to make a change?
           </h1>{" "}
           <div className="h-1 w-full bg-teal-600 mx-auto mt-4 mb-8"></div>
@@ -107,8 +107,8 @@ const Home = () => {
       {/* Services Section */}
       <div id="services" className="bg-gray-50 py-8 px-4">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl text-teal-600 text-left mb-4">Services</h1>
-          <div className="h-1 w-full bg-teal-600 mx-auto mt-4 mb-8"></div>
+          <h1 className="text-4xl text-sky-800 text-left mb-4">Services</h1>
+          <div className="h-1 w-full bg-yellow-600 mx-auto mt-4 mb-8"></div>
           <div
             id="services-cards"
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
@@ -160,6 +160,11 @@ const Home = () => {
           </h2>
         </div>
       </div> */}
+      <div className="max-w-6xl mx-auto text-center p-12 ">
+        <button className="bg-teal-600 font-bold w-84 h-12 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none">
+          Schedule Consultation Today!
+        </button>
+      </div>
     </div>
   );
 };
