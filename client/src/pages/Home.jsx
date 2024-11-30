@@ -31,7 +31,7 @@ const Home = () => {
           <div className="h-1 w-full bg-teal-600 mx-auto mt-4 mb-8"></div>
           <div className="relative flow-root">
             <img
-              src="/src/assets/lanae.jpg"
+              src="/assets/lanae.jpg"
               alt="Image of Lanae Kimber"
               className="float-right ml-4 mb-4 w-32 sm:w-48 md:w-64 rounded-lg"
             />
@@ -68,7 +68,7 @@ const Home = () => {
               <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
-                  src="/src/assets/moving.jpg"
+                  src="/assets/moving.jpg"
                   alt="Life Transitions"
                   className="w-full h-full object-cover rounded-md"
                 />
@@ -82,7 +82,7 @@ const Home = () => {
               <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
-                  src="/src/assets/lgbtq.jpg"
+                  src="/assets/lgbtq.jpg"
                   alt="LGBTQ+"
                   className="w-full h-full object-cover rounded-md"
                 />
@@ -95,7 +95,7 @@ const Home = () => {
               <div className="h-1 w-[33%] bg-sky-800 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-200"></div>
               <div className="aspect-square">
                 <img
-                  src="/src/assets/woman.jpg"
+                  src="/assets/woman.jpg"
                   alt="Women's Issues"
                   className="w-full h-full object-cover rounded-md"
                 />
