@@ -4,7 +4,7 @@ import { Calendar, Computer, Laptop, MessageCircle, Phone } from "lucide-react";
 import ExpertiseTile from "/src/components/ExpertiseTile";
 import ExpertiseTileMobile from "/src/components/ExpertiseTileMobile";
 
-import lanaeImage from "/lanae.jpg";
+import lanaeImage from "/lanae-headshot.jpg";
 import movingImage from "/moving.jpg";
 import lgbtqImage from "/lgbtq.jpg";
 import womanImage from "/woman.jpg";
@@ -172,7 +172,7 @@ const Home = () => {
       <div className="max-w-6xl mx-auto text-center p-12 ">
         <Link
           to="/contact"
-          className="bg-teal-600 font-bold w-84 h-12 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none"
+          className="bg-teal-600 font-bold w-84 h-20 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none"
         >
           Schedule Consultation Today!
         </Link>
