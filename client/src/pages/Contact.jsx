@@ -53,6 +53,7 @@ const Contact = () => {
         },
         (error) => {
           console.log("Email send failed:", error.text);
+          setIsSent(false);
         }
       );
   };
@@ -74,7 +75,7 @@ const Contact = () => {
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-700 mb-1"
+                className="block select-none text-lg font-medium text-gray-700 mb-1"
               >
                 Name
               </label>
@@ -91,7 +92,7 @@ const Contact = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700 mb-1"
+                className="block select-none text-lg font-medium text-gray-700 mb-1"
               >
                 Email
               </label>
@@ -108,7 +109,7 @@ const Contact = () => {
             <div>
               <label
                 htmlFor="phone"
-                className="block text-sm font-medium text-gray-700 mb-1"
+                className="block select-none text-lg font-medium text-gray-700 mb-1"
               >
                 Phone
               </label>
@@ -122,10 +123,10 @@ const Contact = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block select-none text-lg font-medium text-gray-700 mb-2">
                 Preferred Contact Method
               </label>
-              <div className="flex gap-6">
+              <div className="flex gap-6 select-none">
                 <div className="flex items-center">
                   <input
                     type="checkbox"
@@ -135,7 +136,7 @@ const Contact = () => {
                   />
                   <label
                     htmlFor="phone-preference"
-                    className="ml-2 block text-sm text-gray-700"
+                    className="ml-2 block select-none text-md text-gray-700"
                   >
                     Phone
                   </label>
@@ -149,7 +150,7 @@ const Contact = () => {
                   />
                   <label
                     htmlFor="email-preference"
-                    className="ml-2 block text-sm text-gray-700"
+                    className="ml-2 block select-none text-lg text-gray-700"
                   >
                     Email
                   </label>
@@ -163,7 +164,7 @@ const Contact = () => {
                   />
                   <label
                     htmlFor="text-preference"
-                    className="ml-2 block text-sm text-gray-700"
+                    className="ml-2 block select-none text-lg text-gray-700"
                   >
                     Text
                   </label>
@@ -176,7 +177,7 @@ const Contact = () => {
           <div className="h-full">
             <label
               htmlFor="message"
-              className="block text-sm font-medium text-gray-700 mb-1"
+              className="block select-none text-lg font-medium text-gray-700 mb-1"
             >
               Message
             </label>
@@ -190,7 +191,7 @@ const Contact = () => {
           </div>
 
           {/* Submit */}
-          <div className="md:col-span-2 flex justify-center mt-6">
+          <div className="md:col-span-4 flex justify-center mt-6 select-none">
             {isSent ? (
               <button
                 type="submit"

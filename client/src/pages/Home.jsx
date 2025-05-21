@@ -16,13 +16,13 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <div className="relative bg-[url('/sasha-freemind-unsplash.jpg')] bg-cover bg-center py-16 px-4 bg-blend-overlay bg-gray-800/50 shadow z-0">
-        <div className="flex flex-col justify-center items-center max-w-3xl mx-auto text-center h-[33vh]">
-          <h1 className="text-4xl font-bold text-teal-50 mb-6 select-none">
+        <div className="flex flex-col justify-center items-center max-w-3xl mx-auto text-center h-[33vh] select-none">
+          <h1 className="text-4xl font-quicksand text-teal-50 mb-6 select-none">
             Start Your Journey to Better Mental Health!
           </h1>
           <Link
             to="/contact"
-            className="bg-teal-600 w-60 hover:bg-teal-700 text-white px-6 py-2 rounded-md select-none"
+            className="bg-teal-600 w-100 hover:bg-teal-700 text-white text-xl px-6 py-2 rounded-md select-none"
           >
             Schedule Consultation
           </Link>
