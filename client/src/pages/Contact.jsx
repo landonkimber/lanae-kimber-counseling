@@ -60,7 +60,7 @@ const Contact = () => {
   return (
     <div className="bg-gray-100 min-h-[85vh] py-12 px-4">
       <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-md p-8">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-2">
+        <h2 className="text-3xl font-bold font-quicksand text-gray-800 text-center mb-2">
           Fill out the form below to schedule a consultation!
         </h2>
         <div className="h-1 w-full bg-teal-600 mx-auto mb-8"></div>

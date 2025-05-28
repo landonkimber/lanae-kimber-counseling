@@ -2,7 +2,7 @@ import React from "react";
 
 const ExpertiseTile = () => {
   const TileStyle =
-    "select-none bg-white font-bold text-gray-600 text-center border border-gray-50 rounded-lg py-3 m-2 transition duration-300 ease-in-out hover:scale-110 hover:bg-teal-600 hover:text-white select-none";
+    "relative select-none bg-white font-bold text-gray-600 text-center border border-gray-50 rounded-lg py-3 m-2 transition duration-300 ease-in-out hover:scale-110 hover:bg-teal-600 hover:text-white select-none";
   return (
     <div>
       <div className="grid grid-cols-4  content-center align-bottom">
