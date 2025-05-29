@@ -16,18 +16,14 @@ module.exports = {
                     '0%': { opacity: '0', transform: 'translateY(1rem)' },
                     '100%': { opacity: '1', transform: 'translateY(0)' },
                 },
-                typing: {
-                    from: { width: '0' },
-                    to: { width: '100%' },
-                },
-                blink: {
-                    '50%': { borderColor: 'transparent' },
+                fadeInDelayed: {
+                    '0%': { opacity: '0', transform: 'translateY(1rem)' },
+                    '100%': { opacity: '1', transform: 'translateY(0)' },
                 },
             },
             animation: {
                 fadeIn: 'fadeIn 1s ease-out forwards',
-                typing: 'typing 2s steps(30, end) forwards',
-                blink: 'blink 1s step-end infinite',
+                fadeInDelayed: 'fadeInDelayed 1.5s ease-out forwards',
             },
         },
     },

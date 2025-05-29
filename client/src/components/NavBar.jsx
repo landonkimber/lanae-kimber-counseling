@@ -16,10 +16,10 @@ const NavBar = () => {
         <div className=" flex justify-between h-full z-30 relative mt-2">
           {/* Logo and Title */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-24 h-24">
+            <div className="w-20 h-20 mb-4">
               <Logo />
             </div>
-            <h1 className="text-2xl md:text-3xl lg:text-5xl text-white ml-2 lg:ml-4 font-martel font-semibold">
+            <h1 className="text-2xl md:text-3xl lg:text-5xl text-white font-martel font-semibold">
               Lanae Kimber Counseling
             </h1>
           </Link>

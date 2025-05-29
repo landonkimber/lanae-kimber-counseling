@@ -2,7 +2,7 @@ import React from "react";
 
 const ExpertiseTileMobile = () => {
   const TileStyle =
-    "font-bold bg-gray-50 py-1 text-gray-600 pl-2 rounded-lg m-2 transition duration-300 ease-in-out hover:scale-110 hover:bg-teal-600 hover:text-white select-none";
+    "text-center font-bold w-auto bg-gray-500 py-1 text-gray-600 rounded-lg mb-2 ml-1 mr-1 transition duration-300 ease-in-out hover:scale-110 hover:bg-teal-600 hover:text-white select-none";
   return (
     <div className="grid grid-cols-2 mt-2">
       <div className={TileStyle}>Addiction</div>

@@ -23,7 +23,7 @@ const Home = () => {
           </h1>
           <Link
             to="/contact"
-            className="bg-teal-600 w-100 hover:bg-teal-700 text-white text-2xl px-6 mt-18 py-2 rounded-md"
+            className="bg-teal-500 w-100 hover:bg-gray-50 hover:text-teal-500 text-white font-quicksand text-3xl px-6 mt-18 py-2 rounded-md animate-fadeInDelayed"
           >
             Schedule Consultation
           </Link>
@@ -35,7 +35,7 @@ const Home = () => {
         id="home-intro"
         class="flex flex-col md:flex-row max-w-6xl mx-auto bg-grey-50 items-center"
       >
-        <div class="md:w-1/2 w-full p-8">
+        <div class="md:w-1/2 w-full p-4">
           <div
             id="services-cards"
             className="grid grid-row-1 md:grid-rows-3 gap-8"
