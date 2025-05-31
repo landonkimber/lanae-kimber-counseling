@@ -19,7 +19,7 @@ const NavBar = () => {
             <div className="w-20 h-20 mb-4">
               <Logo />
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-martel font-semibold">
+            <h1 className="text-4xl md:text-4xl lg:text-5xl text-white font-martel font-semibold">
               Lanae Kimber Counseling
             </h1>
           </Link>
