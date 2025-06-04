@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full flex justify-center content-center  bg-gradient-to-br from-teal-400 to-teal-500 h-32 shadow-md select-none z-10">
+    <nav className="fixed top-0 w-full flex justify-center content-center bg-gradient-to-br from-teal-400 to-teal-500 h-32 shadow-md select-none z-10">
       <div className="container max-w-7xl mx-auto px-4 h-full">
         <div className=" flex justify-between h-full">
           {/* Logo and Title */}

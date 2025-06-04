@@ -4,6 +4,8 @@ import { FaCheckCircle } from "react-icons/fa";
 import dayjs from "dayjs";
 
 const Contact = () => {
+  window.scrollTo(0, 0);
+
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
 
