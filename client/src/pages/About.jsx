@@ -5,6 +5,8 @@ import lanaeHeadshot from "/lanae-headshot.jpg";
 import { Briefcase, School } from "lucide-react";
 
 const About = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section */}

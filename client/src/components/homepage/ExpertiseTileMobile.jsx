@@ -8,7 +8,7 @@ const ExpertiseTileMobile = () => {
     const interval = setInterval(() => {
       const randomTile = tileIds[Math.floor(Math.random() * tileIds.length)];
       setHighlightedTile(randomTile);
-    }, 1000);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, []);

@@ -4,7 +4,7 @@ import womanImage from "/woman.jpg";
 
 const ExpertiseCards = () => {
   const cardStyle =
-    "absolute bg-teal-400 p-4 lg:p-6 rounded-lg text-white shadow-sm transition duration-300 ease-in-out transform hover:scale-105 hover:z-10 hover:text-white hover:bg-teal-400 group hover:shadow-2xl hover:shadow-teal-50";
+    "absolute bg-teal-400 p-4 lg:p-6 rounded-lg text-white shadow-sm transition duration-300 ease-in-out transform hover:scale-105 hover:z-10 hover:text-white hover:bg-white group hover:shadow-2xl hover:shadow-teal-50";
 
   return (
     <div
@@ -13,10 +13,10 @@ const ExpertiseCards = () => {
     >
       <div className="relative">
         <div className={cardStyle}>
-          <h3 className="text-lg lg:text-xl font-semibold font-assitant mb-1 text-center select-none group-hover:text-white group-hover:font-bold">
+          <h3 className="text-lg lg:text-xl font-semibold font-assitant mb-1 text-center select-none group-hover:text-teal-500 group-hover:font-bold">
             Life Transitions
           </h3>
-          <div className="h-1 w-[33%] bg-teal-200 mx-auto mb-4 transition-colors duration-300 group-hover:bg-white"></div>
+          <div className="h-1 w-[33%] bg-teal-200 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-400"></div>
           <div className="aspect-square">
             <img
               src={movingImage}
@@ -29,10 +29,10 @@ const ExpertiseCards = () => {
 
       <div className="relative">
         <div className={cardStyle}>
-          <h3 className="text-lg lg:text-xl font-semibold font-assistant mb-1 text-center select-none group-hover:text-white group-hover:font-bold">
+          <h3 className="text-lg lg:text-xl font-semibold font-assistant mb-1 text-center select-none group-hover:text-teal-500 group-hover:font-bold">
             LGBTQ+
           </h3>
-          <div className="h-1 w-[33%] bg-teal-200 mx-auto mb-4 transition-colors duration-300 group-hover:bg-white"></div>
+          <div className="h-1 w-[33%] bg-teal-200 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-400"></div>
           <div className="aspect-square">
             <img
               src={lgbtqImage}
@@ -45,10 +45,10 @@ const ExpertiseCards = () => {
 
       <div className="relative">
         <div className={cardStyle}>
-          <h3 className="text-lg lg:text-xl font-semibold font-assitant mb-1 text-center select-none group-hover:text-white group-hover:font-bold">
+          <h3 className="text-lg lg:text-xl font-semibold font-assitant mb-1 text-center select-none group-hover:text-teal-500 group-hover:font-bold">
             Women's Issues
           </h3>
-          <div className="h-1 w-[33%] bg-teal-200 mx-auto mb-4 transition-colors duration-300 group-hover:bg-white"></div>
+          <div className="h-1 w-[33%] bg-teal-200 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-400"></div>
           <div className="aspect-square">
             <img
               src={womanImage}
