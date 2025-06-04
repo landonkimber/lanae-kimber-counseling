@@ -4,7 +4,7 @@
   "description": "This is a website made for Lanae Kimber Counseling. This website was built with react by Landon Kimber",
   "main": "server/server.js",
   "scripts": {
-    "start": "cd client && npm run dev",
+    "start": "cd client && npm run start",
     "start-client": "cd client && npm run dev",
     "dev": "cd client && npm run dev-network",
     "seed": "cd server && npm run seed",
