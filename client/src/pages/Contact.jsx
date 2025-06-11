@@ -60,10 +60,9 @@ const Contact = () => {
       );
   };
   return (
-    <div className="bg-gray-100 min-h-[85vh] py-12 px-4">
-      <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-md p-8">
-        <h2 className="text-3xl font-bold font-quicksand text-gray-800 text-center mb-2">
-          Fill out the form below to schedule a consultation!
+      <div id="contact" className="max-w-6xl mx-auto p-8 scroll-mt-32">
+        <h2 className="text-2xl font-semi-bold font-quicksand text-gray-800 text-center mb-2">
+          Call me at <span className="font-bold text-gray-600">(801)-920-6770</span> for a free consultation or send me an email using the form below!
         </h2>
         <div className="h-1 w-full bg-teal-600 mx-auto mb-8"></div>
 
@@ -213,7 +212,6 @@ const Contact = () => {
           </div>
         </form>
       </div>
-    </div>
   );
 };
 

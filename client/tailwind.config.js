@@ -26,7 +26,11 @@ module.exports = {
                 fadeIn: 'fadeIn 1s ease-out forwards',
                 fadeInDelayed: 'fadeInDelayed 1.5s ease-out forwards',
             },
+            
         },
     },
     plugins: [],
+    corePlugins: {
+    preflight: true,
+  },
 }

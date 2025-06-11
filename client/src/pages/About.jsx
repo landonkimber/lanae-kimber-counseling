@@ -8,7 +8,7 @@ const About = () => {
   window.scrollTo(0, 0);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div id="about" className="min-h-screen bg-gray-100 scroll-to-32">
       {/* Hero Section */}
       <div className="select-none flex items-center justify-center gap-8 max-w-full mx-auto pt-8 pb-8 px-4 bg-white">
         <img

@@ -8,7 +8,7 @@ const ExpertiseTile = () => {
     const interval = setInterval(() => {
       const randomTile = tileIds[Math.floor(Math.random() * tileIds.length)];
       setHighlightedTile(randomTile);
-    }, 1500);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
@@ -43,16 +43,16 @@ const ExpertiseTile = () => {
           Autism
         </div>
         <div className={TileStyle("tile-6")} id="tile-6">
-          Bisexual
+          Self Esteem
         </div>
         <div className={TileStyle("tile-7")} id="tile-7">
-          Borderline Personality
+          Relationship Issues
         </div>
         <div className={TileStyle("tile-8")} id="tile-8">
           Caregivers
         </div>
         <div className={TileStyle("tile-9")} id="tile-9">
-          Coping Skills
+          Attachment Disorders
         </div>
       </div>
 
@@ -76,7 +76,7 @@ const ExpertiseTile = () => {
           Grief
         </div>
         <div className={TileStyle("tile-15")} id="tile-15">
-          Lesbian
+          Trama And PTSD
         </div>
         <div className={TileStyle("tile-16")} id="tile-16">
           Life Coaching
@@ -89,7 +89,7 @@ const ExpertiseTile = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4">
+      {/* <div className="grid grid-cols-4">
         <div className={TileStyle("tile-19")} id="tile-19">
           Relationship Issues
         </div>
@@ -102,7 +102,7 @@ const ExpertiseTile = () => {
         <div className={TileStyle("tile-22")} id="tile-22">
           Trauma and PTSD
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

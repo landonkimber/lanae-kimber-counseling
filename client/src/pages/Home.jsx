@@ -6,6 +6,7 @@ import Insurances from "/src/components/homepage/Insurances";
 import AboutComponent from "../components/homepage/AboutComponent";
 import Specialties from "../components/homepage/Specialties";
 import ServicesIntro from "../components/homepage/ServicesIntro";
+import Contact from "./Contact.jsx"
 
 const Home = () => {
   window.scrollTo(0, 0);
@@ -13,7 +14,7 @@ const Home = () => {
   const screenWidth = window.innerWidth;
   const MobileText = screenWidth < 768 ? "text-2xl" : "text-4xl";
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div id="home" className="min-h-screen bg-gray-50 scroll-mt-32">
       {/* Hero Section */}
       <div className="relative bg-[url('/sasha-freemind-unsplash.jpg')] bg-cover bg-center py-16 px-4 bg-blend-overlay bg-gray-800/50 shadow z-2">
         <div className="flex flex-col justify-center items-center text-center h-[40vh] select-none">
@@ -22,12 +23,12 @@ const Home = () => {
           >
             Start your journey to better mental health today!
           </h1>
-          <Link
-            to="/contact"
+          <a
+            href="#contact"
             className={`bg-teal-500 w-100 hover:bg-gray-50 hover:text-teal-500 text-white font-quicksand ${MobileText} px-6 mt-18 py-2 rounded-md animate-fadeInDelayed z-3`}
           >
             Schedule Consultation
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -38,6 +39,8 @@ const Home = () => {
       <Specialties />
       {/* About Section */}
       <AboutComponent />
+
+      <Contact />
     </div>
   );
 };

@@ -8,7 +8,7 @@ const ExpertiseTileMobile = () => {
     const interval = setInterval(() => {
       const randomTile = tileIds[Math.floor(Math.random() * tileIds.length)];
       setHighlightedTile(randomTile);
-    }, 1500);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
@@ -38,7 +38,7 @@ const ExpertiseTileMobile = () => {
         Autism
       </div>
       <div className={TileStyle("tile-6")} id="tile-6">
-        Coping Skills
+        Attachment Disorders
       </div>
       <div className={TileStyle("tile-7")} id="tile-7">
         Depression
