@@ -45,7 +45,7 @@ const ExpertiseCards = () => {
 
       <div className="relative">
         <div className={cardStyle}>
-          <h3 className="text-lg lg:text-xl font-semibold font-assitant mb-1 text-center select-none group-hover:text-teal-500 group-hover:font-bold">
+          <h3 className="text-lg lg:text-xl whitespace-nowrap font-semibold font-assitant mb-1 text-center select-none group-hover:text-teal-500 group-hover:font-bold">
             Women's Issues
           </h3>
           <div className="h-1 w-[33%] bg-teal-200 mx-auto mb-4 transition-colors duration-300 group-hover:bg-teal-400"></div>

@@ -4,14 +4,14 @@ import womanImage from "/woman.jpg";
 
 const ExpertiseTileMobile = () => {
   const cardStyle =
-    "absolute bg-teal-400 p-4 lg:p-6 rounded-lg text-white shadow-sm transition duration-300 ease-in-out transform hover:scale-105 hover:z-10 hover:text-white hover:bg-white group hover:shadow-2xl hover:shadow-teal-50";
+    "relative bg-teal-400 p-4 lg:p-6 rounded-lg text-white shadow-sm transition duration-300 ease-in-out transform hover:scale-105 hover:z-10 hover:text-white hover:bg-white group hover:shadow-2xl hover:shadow-teal-50";
   const fontStyle =
     "text-sm font-assistant lg:text-xl font-assitant font-bold mb-1 text-center select-none group-hover:text-teal-400 group-hover:font-bold";
 
   return (
     <div
       id="specialties-cards"
-      className="relative grid grid-cols-3 gap-4 lg:gap-8 min-h-[15rem] lg:min-h-[26rem]"
+      className="relative grid grid-cols-3 gap-4 w-full h-auto"
     >
       <div className="relative">
         <div className={cardStyle}>

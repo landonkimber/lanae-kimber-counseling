@@ -21,7 +21,7 @@ const ExpertiseTileMobile = () => {
         : "bg-white text-gray-600 hover:scale-110 hover:bg-teal-500 hover:text-white"
     }`;
   return (
-    <div className="grid grid-cols-2 mt-2">
+    <div className="grid grid-cols-2">
       <div className={TileStyle("tile-1")} id="tile-1">
         Addiction
       </div>

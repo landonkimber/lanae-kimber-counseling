@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { Calendar, Computer, Laptop, MessageCircle, Phone } from "lucide-react";
 
 import Insurances from "/src/components/homepage/Insurances";
-import AboutComponent from "../components/homepage/AboutComponent";
+import AboutComponent from "../components/About.jsx";
 import Specialties from "../components/homepage/Specialties";
 import ServicesIntro from "../components/homepage/ServicesIntro";
-import Contact from "./Contact.jsx"
+import Contact from "../components/Contact.jsx";
 
 const Home = () => {
   window.scrollTo(0, 0);
